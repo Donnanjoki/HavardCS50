@@ -1,0 +1,16 @@
+Lecture 1 : C - Harvard CS50 short notes
+
+## Loops - a forever loop
+
+    while (true)
+    {
+        printf("meow\n");
+    }
+
+    any other non-zero number is interpreted by the computer as true
+
+    hence the forever loop can also be written as;
+    while (1)
+    {
+        printf("meow\n");
+    }
