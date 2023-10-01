@@ -1,4 +1,13 @@
+
+/*
 Lecture 1 : C - Harvard CS50 short notes
+
+### Intro
+
+`` Machines only understand binary, this machine code is a pattern of ones and zeros that produces a desired effect.
+
+`` Code can be evaluated upon three axes, which are
+1]] correctness
 
 ## Loops - a forever loop
 
@@ -14,3 +23,11 @@ Lecture 1 : C - Harvard CS50 short notes
     {
         printf("meow\n");
     }
+
+
+
+
+
+*/
+
+
