@@ -62,8 +62,12 @@ These numbers are port numbers.
 >.By utilizing the DOM we are able to reset its properties or call certain methods, hence our page content can change 
 without us needing to refresh the page.
 
-  >. The D
-
+  >>>. The DOM Properties
+       A]] innerHTML
+       B]]
+       C]]
+       D]]
+       E]] 
 
 
 
