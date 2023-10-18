@@ -50,7 +50,7 @@ These numbers are port numbers.
        #### Javascript ####
 
 >. JavaScript allows you to dynamically read and modify the html document loaded into memory such that the user need not reload to see changes.
->. Example we can geolocate using Javascript;
+>. Example we can geo-locate using Javascript;
 
     // navigator.geolocation.getCurrentPosition(function(position) {
         document.write(position.coords.latitude + "," + position.coords.longitude);
@@ -63,15 +63,19 @@ These numbers are port numbers.
 without us needing to refresh the page.
 
   >>>. The DOM Properties
-       A]] innerHTML
-       B]]
-       C]]
-       D]]
-       E]] 
+       A]] innerHTML - this holds the HTML inside a set of HTML tags
+       B]] nodeName - the name of an HTML element or element attribute
+       C]] id - the "id" attribute of an HTML element
+       D]] parentNode - a reference to the node one level up in the DOM
+       E]] childNodes - An array of references to the nodes one level down in the DOM
+       F]] attributes - An array of attributes of an HTML element
+       G]] style - An object encapsulating the CSS/HTML styling of an element.
 
-
-
-
+>>>>. DOM Methods
+       A]] getElementById(id) - Get the element with a given ID below this point in the DOM.
+       B]] getElementByTagName(tag) - Gets all the elements with the given tag below this point in the DOM.
+       C]] appendChild(node) - Adds the given node to the DOM below this point.
+       D]] removeChild(node) - Removes the specified child node from the DOM
 
 
 
