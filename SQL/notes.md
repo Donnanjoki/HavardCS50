@@ -53,10 +53,83 @@ Note: SQL keywords are not case sensitive, hence select is the same as SELECT.
 2] UPDATE - updates data in a database
 3] DELETE - deletes data from a database
 4] INSERT INTO - inserts new data into a database
-5]
-6]
-7]
-8]
-9]
-10]
-11]
+5] CREATE DATABASE - Creates a new database
+6] ALTER DATABASE - Modifies a database
+7] CREATE TABLE - creates a new table
+8] ALTER TABLE - modifies a table
+9] DROP TABLE - deletes a table
+10] CREATE INDEX - creates an index (search key)
+11] DROP INDEX - deletes an index
+
+### RELATIONAL DATABASES
+
+> . Google, X and Meta all use relational databases to store their information at scale.
+
+> . Relational databases store their data in rows and columns in structures called tables.
+> . SQL allows 4 types of commands: CRUD
+> A] Create
+> B] Read
+> C] Update
+> D] Delete
+
+> .We can read items from a table using the syntax;
+> SELECT columns FROM table
+
+> . We can INSERT into a SQL database utilizing the form;
+> INSERT INTO table (column...) Values(value, ...);.
+
+> . SQL supports many commands to access data which include:
+> 1] AVG
+> 2] COUNT
+> 3] DISTINCT
+> 4] LOWER
+> 5] MAX
+> 6] MIN
+> 7] UPPER
+
+> . SQL also offers additional commands we can utilize in our queries, such as;
+> WHERE -- adding a Boolean expression to filter our data
+> LIKE -- filtering responses more loosely
+> ORDER BY -- Ordering responses
+> LIMIT -- Limit the number of responses
+> GROUP BY -- Grouping responses together
+
+By storing data in relational database, data can be more efficiently stored.
+In sqlite, we have 5 datatypes; that is
+
+BLOB -- binary large objects that are groups of ones and zeros
+INTEGER -- an integer
+NUMERIC -- for numbers that are formatted specifically like dates
+REAL -- like a float
+TEXT -- for strings and the like
+
+Also columns can be set to add special constraints:
+NOT NULL
+UNIQUE
+
+Primary keys are used to identify a unique record in a table. Foreign keys are used to build relationships between tables by pointing to the primary key in another table.
+
+### JOINS
+
+HOW could we combine tables temporarily?
+Tables could be joined together using the JOIN command.
+
+### INDEXES
+
+> . While relational databases have the ability to be more fast and more robust than utilizing a csv file, data can be optimized within a table using indexes.
+
+> . Note as such indexing all columns would result in utilizing more storage space. Hence there is a tradeoff for enhanced speed.
+
+### RACE CONDITIONS
+
+> . Utilization of SQL can sometimes result in some problems.
+> . You can imagine a case where multiple users could be accessing the same database and executing commands at the same time.
+> . This could result in glitches where code is interrupted by other people’s actions. This could result in a loss of data.
+
+Built-in SQL features such as BEGIN TRANSACTION, COMMIT and ROLLBACK help avoid some of these race condition problems.
+
+### SQL Injection Attacks
+
+> .An injection attach is where a malicious actor could input malicious SQL code.
+
+> . Note you never want to utilize formatted strings in queries or blindly trust the user's input.
