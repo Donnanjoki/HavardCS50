@@ -91,8 +91,11 @@ Note: SQL keywords are not case sensitive, hence select is the same as SELECT.
 > WHERE -- adding a Boolean expression to filter our data
 > LIKE -- filtering responses more loosely
 > ORDER BY -- Ordering responses
+> ASC - ascending order || DESC - descending order
 > LIMIT -- Limit the number of responses
 > GROUP BY -- Grouping responses together
+
+NOTE: In SQL you can nest queries within each other. Rather than separate the queries you can nest them.
 
 By storing data in relational database, data can be more efficiently stored.
 In sqlite, we have 5 datatypes; that is
