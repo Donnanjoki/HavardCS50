@@ -1,5 +1,39 @@
-/*
+
 Lecture 2 - Arrays
 
+## Compiling ##
 
-*/
+>. Encryption is the act of hiding plain text from prying eyes, while decryption is the
+act of returning the encrypted piece of text back to human-readable form.
+
+>. A compiler is a specialized computer program that converts source code into machine code, which can be understood by a computer.
+
+
+## Debugging ##
+
+>. A debugger is a software tool created by programmers to help track down bugs in code.
+
+
+## Arrays ##
+
+>. various data types require a certain amount of system resources:
+1. bool 1 byte
+2. int 4 bytes
+3. long 8 bytes
+4. float 4 bytes
+5. double 8 bytes
+6. char 1 byte
+7. string ? byte
+
+>. A string is simply an array of variable of type char: an array of characters.
+
+## Command-Line Arguments ##
+
+>. These are arguments that are passed to your program at the command line. 
+
+## cryptography ##
+
+>. This is the art of ciphering and deciphering a message.
+>. plaintext and a key are provided to a cipher, resulting in ciphered text.
+>. The key is a special argument passed to the cipher along with the plaintext.
+>. The cipher uses the key to make decisions about how to implement its cipher algorithm.
