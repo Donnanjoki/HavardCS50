@@ -1,7 +1,111 @@
-/*
+> . Algorithm refers to a set of finite rules or instructions to be followed in calculations or other problems solving operations.
+> or a procedure for solving a mathematical problem in a finite number of steps that frequently involves recursive operations.
 
-Lecture 3: Algorithms 
+## Uses of Algorithms
 
+1.  In computer science for simple sorting and searching to complete complex tasks in machine learning and AI
+2.  Mathematics - in order to find optimal solutions to a system of linear equations or finding the shortest path in a graph
+3.  Operations Research - To optimize and make decisions in logistics, resource allocation and transportation.
+4.  Artificial Intelligence - Algorithms are the foundations of AI and machine learning as they are used to develop intelligent systems that can perform tasks such as image recognition, natural language processing and decision making
+5.  Data Science - here algorithms are utilized in analyzing, processing and extracting insights from large amounts of data in fields such as marketing, finance and healthcare.
 
+To note algorithms are designed to be language-independent, hence they can be implemented in any language and yet the output will be the same.
 
-*/
+1. They aid automate tasks, processes and make them reliable, faster and easier to perform
+2. There are handy in solving complex problems effectively and efficiently.
+
+## Characteristics of an algorithm
+
+1. clear and unambiguous
+2. well-defined inputs
+3. well-defined outputs
+4. Finite-ness - the algorithm must be finite, hence should terminate after a finite time
+5. Feasible - must be simple, generic and practical, and able to be executed with the available resources.
+   > . an algorithm must be developed using simple and feasible operations so that one can trace it by using just paper and pencil.
+6. language-independent - it must just be plain instructions that can be implemented in any language and yet the output will be the same as expected.
+
+## Properties of Algorithms
+
+1. It should terminate after a finite time
+2. It should produce at least one output
+3. It should take zero or more input
+4. It should be deterministic meaning giving the same output for the same input case.
+5. Every step in the algorithm must be effective
+
+## Types of Algorithms
+
+1. Brute Force Algorithm
+2. Recursive Algorithm
+3. Backtracking Algorithm
+4. Searching Algorithm
+5. Sorting Algorithm
+6. Hashing Algorithm
+7. Divide and conquer Algorithm (Divide - solve - combine)
+8. Greedy Algorithm
+9. Dynamic programming algorithm
+10. Randomized Algorithm
+
+## How Design an Algorithm (prerequisites)
+
+1. The problem that is to be solved by this algorithm i.e clear problem definition.
+2. The constraints of the problem must be considered while solving the problem.
+3. The input must be takes to solve the problem.
+4. The output to be expected when the problem is solved
+5. The solution to this problem is within the given constraints.
+
+## Afterwards the algorithm is written with the help of the above parameters such that it solves the problem
+
+## Running Time
+
+> . This involves an analysis using big O notation.
+> . It's the shape of the curve that shows the efficiency of an algorithm. Common running times include;
+> 1] O(n2)
+> 2] O(nlogn)
+> 3] O(n)
+> 4] O(logn)
+> 5] O(1)
+
+> . Of the running times above,O(n2) is considered the worst running time, O(1) is the fastest.
+> . Linear search was of order O(n) because it could take n steps in the worst case to run.
+> . Binary search was of order O(log n) because it would take fewer and fewer steps to run even in the worst case.
+
+> . Programmers are interested in both the worst case, or upper bound, and the best case, or lower bound.
+
+## Sorting
+
+> . This involves taking an unsorted list of values and transforming this list into a sorted one.
+> . When a list is sorted, searching that list is far less taxing on the computer. Recall that we can use binary search on a sorted list, but not on an unsorted one.
+> . There are different types of sort algorithms.
+> . Selection sort is one of them, which looks for the smallest number in a list.
+>
+> > algorithm for selection code in pseudo-code:
+
+For i from 0 to n–1
+Find smallest number between numbers[i] and numbers[n-1]
+Swap smallest number with numbers[i]
+
+> . Bubble sort is another sorting algorithm which works by repeatedly swapping elements to "bubble" larger elements to the end.
+>
+> > Pseudo-code for bubble sort:
+
+     Repeat n-1 times
+     For i from 0 to n-2
+         If numbers[i] and numbers[i+i] out of order
+              swap them
+
+### Recursion
+
+> . Recursion is a concept within programming where a function calls itself.
+
+## Merge Sort
+
+> . We can now leverage recursion in our quest for a more efficient sort algorithm and implement what is called merge sort, a very efficient sort algorithm.
+
+> . The pseudocode for merge sort is;
+
+       If only one number
+          Quit
+      Else
+          Sort left half of number
+          Sort right half of number
+          Merge sorted halves

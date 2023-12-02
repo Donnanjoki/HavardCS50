@@ -1,0 +1,26 @@
+Hexadecimal
+
+> . This is a system of counting that has 16 counting values.
+> . Hexadecimal is also known as base-16.
+> . Hexadecimal is useful because it can be represented using fewer digits, hence allowing us to represent information more succinctly.
+
+## Pointers
+
+> . A pointer is a variable that contains the addresses of some value. Most succinctly, a pointer is an address in your computer memory.
+
+## Valgrind
+
+> . Valgrind is a tool that can check to see if there are memory-related issues with your programs wherein you utilized malloc. Specifically, it checks to see if you free all the memory you allocated.
+
+## Garbage Values
+
+> . When you ask the compiler for a block of memory, there is no guarantee that this memory will be empty.
+> . It’s very possible that this memory that you allocated was previously utilized by the computer. Accordingly, you may see junk or garbage values. This is a result of you getting a block of memory but not initializing it.
+
+### Overflow
+
+> . A heap overflow is when you overflow the heap, touching areas of memory you are not supposed to.
+
+> . A stack overflow is when too many functions are called, overflowing the amount of memory.
+
+> . Both of these are considered buffer overflows.
