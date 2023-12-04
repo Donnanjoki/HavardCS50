@@ -1,0 +1,44 @@
+## DATA STRUCTURES
+
+---
+
+> . Data structures are forms of organization in memory.
+> . There are different ways to organize data in memory, such as abstract data structures which are those that we can conceptually imagine.
+
+## Stacks and Queues
+
+---
+
+> . Queues are one form of abstract data structures.
+> 1]] Queues have specific properties such as FIFO or first in first out
+> 2]] They also have specific actions associated with them such as an item can be enqueued; that is the item can join the line or queue, and furthermore the item can be dequeued or leave the queue once it reaches the front of the line.
+
+> . Queues contrast a stack both also in properties.
+> 1]] They are LIFO or last in first out.
+> 2]] They have specific actions associated with them, example "push" places something on top of a stack. "Pop" is removing something from the top of the stack.
+
+## Resizing Arrays
+
+---
+
+> . An arrays is a block of contiguous(adjacent ) memory.
+
+## Linked Lists
+
+---
+
+## Trees
+
+---
+
+## Dictionaries
+
+---
+
+## Hashing and Hash Tables
+
+---
+
+## Tries
+
+---
