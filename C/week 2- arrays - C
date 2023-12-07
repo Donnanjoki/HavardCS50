@@ -1,22 +1,24 @@
-
 Lecture 2 - Arrays
 
-## Compiling ##
+> . Pointers (pointer variables) are special variables that are used to store addresses rather than values.
 
->. Encryption is the act of hiding plain text from prying eyes, while decryption is the
-act of returning the encrypted piece of text back to human-readable form.
+> . The pointer in C language is a variable which stores the address of another variable
 
->. A compiler is a specialized computer program that converts source code into machine code, which can be understood by a computer.
+## Compiling
 
+> . Encryption is the act of hiding plain text from prying eyes, while decryption is the
+> act of returning the encrypted piece of text back to human-readable form.
 
-## Debugging ##
+> . A compiler is a specialized computer program that converts source code into machine code, which can be understood by a computer.
 
->. A debugger is a software tool created by programmers to help track down bugs in code.
+## Debugging
 
+> . A debugger is a software tool created by programmers to help track down bugs in code.
 
-## Arrays ##
+## Arrays
 
->. various data types require a certain amount of system resources:
+> . various data types require a certain amount of system resources:
+
 1. bool 1 byte
 2. int 4 bytes
 3. long 8 bytes
@@ -25,15 +27,15 @@ act of returning the encrypted piece of text back to human-readable form.
 6. char 1 byte
 7. string ? byte
 
->. A string is simply an array of variable of type char: an array of characters.
+> . A string is simply an array of variable of type char: an array of characters.
 
-## Command-Line Arguments ##
+## Command-Line Arguments
 
->. These are arguments that are passed to your program at the command line. 
+> . These are arguments that are passed to your program at the command line.
 
-## cryptography ##
+## cryptography
 
->. This is the art of ciphering and deciphering a message.
->. plaintext and a key are provided to a cipher, resulting in ciphered text.
->. The key is a special argument passed to the cipher along with the plaintext.
->. The cipher uses the key to make decisions about how to implement its cipher algorithm.
+> . This is the art of ciphering and deciphering a message.
+> . plaintext and a key are provided to a cipher, resulting in ciphered text.
+> . The key is a special argument passed to the cipher along with the plaintext.
+> . The cipher uses the key to make decisions about how to implement its cipher algorithm.

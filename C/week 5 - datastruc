@@ -17,28 +17,53 @@
 > 1]] They are LIFO or last in first out.
 > 2]] They have specific actions associated with them, example "push" places something on top of a stack. "Pop" is removing something from the top of the stack.
 
-## Resizing Arrays
-
----
-
-> . An arrays is a block of contiguous(adjacent ) memory.
-
 ## Linked Lists
 
 ---
+
+> . In recent weeks, you have learned about three useful primitives.
+> 1] A (struct) is a data type that you can define yourself.
+> 2] A (.) in dot notation allows you to access variables inside that structure.
+> 3] The (\*) operator is used to declare a pointer or dereference a variable.
+> 4] The -> operator. It is an arrow. This operator goes to an address and looks inside of a structure.
+
+> . A Linked list is one of the most powerful data structures within C. A linked list allows you to include values that are located at varying areas of memory. Further, they allow you to dynamically grow and shrink the list as you desire.
 
 ## Trees
 
 ---
 
+> . Binary search trees are another data structure that can be used to store data more efficiently such that it can be searched and retrieved.
+
 ## Dictionaries
 
 ---
+
+> . Dictionaries are another data structure.
+> Dictionaries, like actual book-form dictionaries that have a word and a definition, have a key and a value.
+
+> . Dictionaries can offer this speed of access.
 
 ## Hashing and Hash Tables
 
 ---
 
+> .Hashing is the idea of taking a value and being able to output a value that becomes a shortcut to it later.
+
+> . A hash function is an algorithm that reduces a larger value to something small and predictable. Generally, this function takes in an item you wish to add to your hash table, and returns an integer representing the array index in which the item should be placed.
+
+> . A hash table is a fantastic combination of both arrays and linked lists. When implemented in code, a hash table is an array of pointers to nodes.
+
+> . Collisions are when you add values to the hash table, and something already exists at the hashed location. In the above, collisions are simply appended to the end of the list.
+
+> . Collisions can be reduced by better programming your hash table and hash algorithm.
+
+> . You, as the programmer, have to make a decision about the advantages of using more memory to have a large hash table and potentially reducing search time or using less memory and potentially increasing search time.
+
 ## Tries
 
 ---
+
+> . Tries are another form of data structure.
+> Tries are always searchable in constant time.
+> . One downside to Tries is that they tend to take up a large amount of memory.

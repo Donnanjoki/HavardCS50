@@ -24,3 +24,7 @@ Hexadecimal
 > . A stack overflow is when too many functions are called, overflowing the amount of memory.
 
 > . Both of these are considered buffer overflows.
+
+## malloc
+
+> . Memory allocation (malloc), is an in-built function in C. This function is used to assign a specified amount of memory for an array to be created. It also returns a pointer to the space allocated in memory using this function.
